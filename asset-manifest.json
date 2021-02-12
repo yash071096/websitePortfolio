@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.24973a91.chunk.css",
+    "main.js": "/my-app/static/js/main.f5d2ed3b.chunk.js",
+    "main.js.map": "/my-app/static/js/main.f5d2ed3b.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.eee67ce6.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.eee67ce6.js.map",
+    "static/js/2.fba22ffd.chunk.js": "/my-app/static/js/2.fba22ffd.chunk.js",
+    "static/js/2.fba22ffd.chunk.js.map": "/my-app/static/js/2.fba22ffd.chunk.js.map",
+    "static/css/3.3a26ebde.chunk.css": "/my-app/static/css/3.3a26ebde.chunk.css",
+    "static/js/3.21307e98.chunk.js": "/my-app/static/js/3.21307e98.chunk.js",
+    "static/js/3.21307e98.chunk.js.map": "/my-app/static/js/3.21307e98.chunk.js.map",
+    "static/css/4.21259c32.chunk.css": "/my-app/static/css/4.21259c32.chunk.css",
+    "static/js/4.d03facf5.chunk.js": "/my-app/static/js/4.d03facf5.chunk.js",
+    "static/js/4.d03facf5.chunk.js.map": "/my-app/static/js/4.d03facf5.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.419a42545d0079aec26e5aca48b1e083.js": "/my-app/precache-manifest.419a42545d0079aec26e5aca48b1e083.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/3.3a26ebde.chunk.css.map": "/my-app/static/css/3.3a26ebde.chunk.css.map",
+    "static/css/4.21259c32.chunk.css.map": "/my-app/static/css/4.21259c32.chunk.css.map",
+    "static/css/main.24973a91.chunk.css.map": "/my-app/static/css/main.24973a91.chunk.css.map",
+    "static/js/2.fba22ffd.chunk.js.LICENSE.txt": "/my-app/static/js/2.fba22ffd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/my-app/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/contactMailDark.svg": "/my-app/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/my-app/static/media/developerActivity.59389695.svg",
+    "static/media/kicit.png": "/my-app/static/media/kicit.0d764964.png",
+    "static/media/manOnTable.svg": "/my-app/static/media/manOnTable.52be3144.svg",
+    "static/media/nextuLogo.webp": "/my-app/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/radiantimg.png": "/my-app/static/media/radiantimg.ed6692e9.png",
+    "static/media/recom.png": "/my-app/static/media/recom.5db7c50f.png",
+    "static/media/saayaHealthLogo.webp": "/my-app/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/scola.jpg": "/my-app/static/media/scola.d5e44a9d.jpg",
+    "static/media/skill.svg": "/my-app/static/media/skill.34409398.svg",
+    "static/media/TalkCard.css": "/my-app/static/media/talksCardBack.39eff4a9.svg",
+    "static/media/ycceimg.jpg": "/my-app/static/media/ycceimg.7f5f7350.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eee67ce6.js",
+    "static/js/2.fba22ffd.chunk.js",
+    "static/css/main.24973a91.chunk.css",
+    "static/js/main.f5d2ed3b.chunk.js"
+  ]
+}
