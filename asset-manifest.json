@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.24973a91.chunk.css",
-    "main.js": "/my-app/static/js/main.f5d2ed3b.chunk.js",
-    "main.js.map": "/my-app/static/js/main.f5d2ed3b.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.eee67ce6.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.eee67ce6.js.map",
-    "static/js/2.fba22ffd.chunk.js": "/my-app/static/js/2.fba22ffd.chunk.js",
-    "static/js/2.fba22ffd.chunk.js.map": "/my-app/static/js/2.fba22ffd.chunk.js.map",
+    "main.js": "/my-app/static/js/main.c6c57d29.chunk.js",
+    "main.js.map": "/my-app/static/js/main.c6c57d29.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.8b5c6aa4.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.8b5c6aa4.js.map",
+    "static/js/2.8d939598.chunk.js": "/my-app/static/js/2.8d939598.chunk.js",
+    "static/js/2.8d939598.chunk.js.map": "/my-app/static/js/2.8d939598.chunk.js.map",
     "static/css/3.3a26ebde.chunk.css": "/my-app/static/css/3.3a26ebde.chunk.css",
-    "static/js/3.21307e98.chunk.js": "/my-app/static/js/3.21307e98.chunk.js",
-    "static/js/3.21307e98.chunk.js.map": "/my-app/static/js/3.21307e98.chunk.js.map",
+    "static/js/3.c8576ca6.chunk.js": "/my-app/static/js/3.c8576ca6.chunk.js",
+    "static/js/3.c8576ca6.chunk.js.map": "/my-app/static/js/3.c8576ca6.chunk.js.map",
     "static/css/4.21259c32.chunk.css": "/my-app/static/css/4.21259c32.chunk.css",
-    "static/js/4.d03facf5.chunk.js": "/my-app/static/js/4.d03facf5.chunk.js",
-    "static/js/4.d03facf5.chunk.js.map": "/my-app/static/js/4.d03facf5.chunk.js.map",
+    "static/js/4.cdd581ab.chunk.js": "/my-app/static/js/4.cdd581ab.chunk.js",
+    "static/js/4.cdd581ab.chunk.js.map": "/my-app/static/js/4.cdd581ab.chunk.js.map",
     "index.html": "/my-app/index.html",
-    "precache-manifest.419a42545d0079aec26e5aca48b1e083.js": "/my-app/precache-manifest.419a42545d0079aec26e5aca48b1e083.js",
+    "precache-manifest.778e74f187b8a538b7c29d973b83f648.js": "/my-app/precache-manifest.778e74f187b8a538b7c29d973b83f648.js",
     "service-worker.js": "/my-app/service-worker.js",
     "static/css/3.3a26ebde.chunk.css.map": "/my-app/static/css/3.3a26ebde.chunk.css.map",
     "static/css/4.21259c32.chunk.css.map": "/my-app/static/css/4.21259c32.chunk.css.map",
     "static/css/main.24973a91.chunk.css.map": "/my-app/static/css/main.24973a91.chunk.css.map",
-    "static/js/2.fba22ffd.chunk.js.LICENSE.txt": "/my-app/static/js/2.fba22ffd.chunk.js.LICENSE.txt",
+    "static/js/2.8d939598.chunk.js.LICENSE.txt": "/my-app/static/js/2.8d939598.chunk.js.LICENSE.txt",
     "static/media/index.css": "/my-app/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/contactMailDark.svg": "/my-app/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/my-app/static/media/developerActivity.59389695.svg",
@@ -35,9 +35,9 @@
     "static/media/ycceimg.jpg": "/my-app/static/media/ycceimg.7f5f7350.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eee67ce6.js",
-    "static/js/2.fba22ffd.chunk.js",
+    "static/js/runtime-main.8b5c6aa4.js",
+    "static/js/2.8d939598.chunk.js",
     "static/css/main.24973a91.chunk.css",
-    "static/js/main.f5d2ed3b.chunk.js"
+    "static/js/main.c6c57d29.chunk.js"
   ]
 }
