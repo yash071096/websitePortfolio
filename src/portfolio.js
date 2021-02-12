@@ -9,26 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Yash Thakare',
+  title: "Hi all, I'm Yash",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks. I am actively looking for a new grad / entry level Software Developer role and I am open to relocation.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com/file/d/1NYqM6Ug46NugQRaBEIwHQ5GcIbQ7b2o6/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
+  github: 'https://github.com/yash071096',
+  linkedin: 'https://www.linkedin.com/in/yash0710/',
+  gmail: 'yash071096@gmail.com',
+  gitlab: 'https://gitlab.com/yash071096',
   facebook: 'https://www.facebook.com/saad.pasta7',
   medium: 'https://medium.com/@saadpasta',
   stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  instagram: 'https://www.instagram.com/___khanabadosh____/',
+  twitter: 'https://twitter.com/yash071096',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -37,12 +39,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'A FULL STACK DEVELOPER WHO WANTS TO EXPLORE NEW TECH STACK',
   skills: [
     emoji(
       '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
     ),
     emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+    emoji('⚡ Develop IoT Applications and IoT-PoC'),
+    emoji('⚡ Developed & deployed dashboards, visualizations, autonomous & dynamic reporting interfaces using Tableau and MicroStrategy'),
     emoji(
       '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
     ),
@@ -104,6 +108,30 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'docker',
       fontAwesomeClassname: 'fab fa-docker',
     },
+    {
+      skillName: 'Azure',
+      fontAwesomeClassname: 'fab fa-azure',
+    },
+    {
+      skillName: 'C++',
+      fontAwesomeClassname: 'fab fa-cpp',
+    },
+    {
+      skillName: 'Java',
+      fontAwesomeClassname: 'fab fa-azure',
+    },
+    {
+      skillName: 'Tableau',
+      fontAwesomeClassname: 'fab fa-cpp',
+    },
+    {
+      skillName: 'Azure',
+      fontAwesomeClassname: 'fab fa-azure',
+    },
+    {
+      skillName: 'MicroStrategy',
+      fontAwesomeClassname: 'fab fa-cpp',
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -114,24 +142,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
+      schoolName: 'The University of Texas at Dallas',
+      logo: require('./assets/images/utdimg.png'),
       subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      duration: 'August 2019 - May 2021',
+      desc: 'GPA: 3.71/4.0 | Took courses about Design and Analysis of Algorithms, Machine Learning, Artificial Intelligence, Database Design, Data and Application Security',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Computer Science Outreach Instructor',
+        'Arduino Tutor (Arduino Uno, Megaboard, Raspberry Pi)',
+        'Interacted with students & helped them in getting hands-on experience with C, C++ & Arduino programming, held 50+ office hours to help students with concepts & projects',
+        'Evaluated students’ performance, provided feedback & guidance in course development for 20 students',
       ],
     },
     {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
+      schoolName: 'Yeshwantrao Chavan College of Engineering',
+      logo: require('./assets/images/ycceimg.jpg'),
+      subHeader: 'Bachelor of Science in Computer Technology',
+      duration: 'July 2015 - May 2019',
       desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Business Intelligence, Computer Architecture and Organization, Neural Network and Fuzzy Logic, Theory of Computation.',
+      descBullets: ['An active member of ACM student chapter | Head of the tech-fest | IOT team lead | Photography head'],
     },
   ],
 };
@@ -143,15 +173,15 @@ const techStack = {
   experience: [
     {
       Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      progressPercentage: '70%', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
       progressPercentage: '70%',
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '60%',
+      Stack: 'Programming (DSA)',
+      progressPercentage: '80%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -163,32 +193,53 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Developer Intern',
+      company: 'Radiant Digital',
+      companylogo: require('./assets/images/radiantimg.png'),
+      date: 'May 2020 – August 2020',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Team: Emerging Technologies | Project: Real Time Location System for BLE Asset Tracking | Tech Stack: [Node.js, Microsoft Azure, Cucumber.js, Javascript, Typescript, Raspberry Pi 4, Bluetooth 5.X, Docker]',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        ' Developed secure, scalable, & a portable Real Time Location System (RTLS) full stack application using MERN stack for BLE asset tracking, which enhanced security, lowered equipment waste & increased efficiency by 27%',
+        ' Set up Bluetooth & Wi-Fi mesh for raspberry pi to improve coverage, speed up the network & eliminate dead zones.',
+        ' Implemented TCP/IP, MQTT protocol to establish lossless, bidirectional connection between the cloud & IoT devices to monitor devices',
+        ' Hosted the services on Microsoft Azure to increase the availability & scalability by 50% & provided support for DevOps CI/CD activities in GitLab',
+        ' Created test cases using unit testing framework, Junit & Cucumber with 70% code coverage as a part of TDD;',
+        ' Produced comprehensive, usable software documentation;',
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
+      role: 'Software Engineer Intern',
+      company: 'InfoCepts',
+      companylogo: require('./assets/images/InfoCeptsimg.png'),
       date: 'May 2017 – May 2018',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Project: Dashboard Development | Tech Stack: [MicroStrategy, Tableau, MS SQL, MS Excel]',
+      descBullets: [
+        ' Developed & deployed dashboards, visualizations, autonomous & dynamic reporting interfaces to be distributed to stakeholders via the BI reporting platform (Tableau & MicroStrategy) which increased the revenue by 4%',
+        ' Worked with the Data Engineering team to provide input on logical & physical database design, data modelling & mapping',
+        ' Analyzed facts & dimensions for data analysis & design. Created KPIs for reporting of scorecards & performance management',
+        ' Designed & deployed ETL solutions, imported data from OLTP, cleansed it, inserted it into MS SQL & wrote complex SQL queries',
+        'Developed dashboards which provides analysis of seven major diseases for all Indian states over a span of 6 years, for the end user (Medical Experts) to analyze the different factors related to the mortality rate',
+        'This helped the experts to determine the states and the age group which were severely affected by these diseases',
+      ],
     },
     {
       role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
+      company: 'KICIT',
+      companylogo: require('./assets/images/kicit.png'),
       date: 'Jan 2015 – Sep 2015',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Project: Smart Farming Using IOT | Tech Stack: [Arduino, ThingSpeak, Android Studio]',
+      descBullets: [
+        'The soil moisture sensor monitors the soil moisture continuously and as soon as the moisture goes below the calculated threshold, it triggers an alarm, puts on the LED, displays a suitable message on the LCD and notifies the farmer via a text message about the field condition and puts on the water pump to water the field.',  
+        'This reduced the water wastage by 35%',
+        
+        
+        '-Project: Office Automation | Tech Stack: [Arduino, ThingSpeak]',
+        'Developed an office automation system that could remotely control the appliances using an android application.',
+        'This reduced the electricity wastage by 40%',
+      ],
     },
   ],
 };
@@ -198,7 +249,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
+  githubUserName: 'yash071096', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
 };
@@ -217,7 +268,7 @@ const bigProjects = {
         {
           name: 'Visit Website',
           url:
-            'http://saayahealth.com/',
+            '',
         },
         //  you can add extra buttons here.
       ],
@@ -230,12 +281,12 @@ const bigProjects = {
         {
           name: 'Visit Website',
           url:
-            'http://nextu.se/',
+            '',
         },
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,51 +299,42 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: 'Letter of Appreciation',
       subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
+        'Lead IoT workshops for 100+ students & faculties during my B.Tech, also lead the Tech-fest of the department',
+      image: require('./assets/images/appre.png'),
       footerLink: [
         {
-          name: 'Certification',
+          name: 'Appreciation Letter',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
-        },
-        {
-          name: 'Award Letter',
-          url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
-        },
-        {
-          name: 'Google Code-in Blog',
-          url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+            'https://drive.google.com/file/d/1MixsPUDeFE17PFhnUCmt1O1icwCM-R_X/view?usp=sharing',
         },
       ],
     },
     {
-      title: 'Google Assistant Action',
+      title: 'Letter of Recommendation',
       subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+        'Recommendation Letter By Prof. Timothy Culver (Software Defined Network)',
+      image: require('./assets/images/recom.png'),
       footerLink: [
         {
-          name: 'View Google Assistant Action',
+          name: 'Recommendation Letter',
           url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+            'https://drive.google.com/file/d/1h4OAeHYJh0ocdSRtj4sV9qI4pvJZTcI3/view?usp=sharing',
         },
       ],
     },
 
     {
-      title: 'PWA Web App Developer',
+      title: 'Scholarly Paper',
+      subtitle: 
+        'My scholarly paper on “Comparative Analysis of Two BI Tools: MicroStrategy & Tableau” ',
       subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
+      image: require('./assets/images/scola.jpg'),
       footerLink: [
-        { name: 'Certification', url: '' },
         {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
+          name: 'Scholarly Paper',
+          url: 'http://ssrn.com/abstract=3462539',
         },
       ],
     },
@@ -303,23 +345,44 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: 'Blogs',
+  title: 'Other Projects & Blogs',
   subtitle:
-    'With Love for Developing cool stuff, I love to write and teach others what I have learnt.',
+    'With Love for Developing cool stuff, I love to write.',
 
   blogs: [
     {
       url:
-        'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
-      title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+        'https://github.com/yash071096/Stock-Exchange-Web-App',
+      title: 'Stock Trading Web Application',
       description:
-        'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
+        '• Developed & deployed a scalable three-layered real time stock trading web application using MERN stack • Designed backend RESTful APIs for stocks trading, user profile management, and bank transactions • Made asynchronous AJAX calls to Stock brokerage Web Service for receiving data which is then processed & displayed on the dashboard • Performed request/response compression using gzip, implemented caching via Memcached for high performance',
     },
     {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
-      title: 'Why REACT is The Best?',
+      url:
+        'https://github.com/yash071096/Library-Management-System',
+      title: 'Library Management System',
       description:
-        'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
+        '• Implemented a web-based interface using Java Spring MVC for library management system, which manages user authentication, cataloging, search, circulation, waiting list & testing assistance which allowed the end user to have a real library like experience online',
+    },
+    {
+      url:
+        'https://github.com/yash071096/NodeBlog',
+      title: 'Blog Portal',
+      description:
+        '• Built a blog portal system using MERN (Mongo, Express, React, Node) stack, wherein the user can publish his blogs, search for blogs based on different categories, users, & write testimonials on other’s blog',
+    },
+    {
+      url:
+        'http://imyashthakare.blogspot.com/2017/01/to-live-life-of-designer-one-must-lose.html',
+      title: 'Designing it my way',
+      description:
+        'Sharing my thoughts about designing :)',
+    },
+    {
+      url: 'http://imyashthakare.blogspot.com/2017/01/smart-village-key-to-brighter-future.html',
+      title: 'Smart village - key to a brighter future',
+      description:
+        'How smart villages can help us with sustainale development',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -337,11 +400,11 @@ const talkSection = {
     {
       title: 'Build Actions For Google Assistant',
       subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
+      slides_url: '',
+      event_url: '',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -352,23 +415,23 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
+    '',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
-    'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+    'Discuss a project or just want to say hi? My Inbox is open for all. I am currently located in Dallas, Texas and looking for a full-time software developer role.',
+  number: '+1-469-473-1124',
+  emailAddress: 'yash071096@gmail.com',
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: 'twitter', //Replace "twitter" with your twitter username without @
+  userName: 'yash071096', //Replace "twitter" with your twitter username without @
   display: true, // Set true to display this section, defaults to false
 };
 
